@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+
+        <title>Frontend Mentor | [Blogr]</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Hero Section -->
+        <div class="main-hero">
+            <header class="header">
+                <div class="container header-container">
+                    <div class="navbar-container">
+                        <nav class="main-nav">
+                            <img src="./images/logo.svg" alt="Logo of Blogr" />
+                            <ul class="list">
+                                <li class="list-item">
+                                    <a href="#" class="nav-links">Product</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="nav-links">Company</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#" class="nav-links">Connect</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="nav-btn-container btn-container">
+                            <a href="#" class="btn btn-nav">Login</a>
+                            <a href="" class="btn btn-nav cta-hero">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="hero">
+                <div class="container flex-container">
+                    <div class="hero-container">
+                        <div class="hero-text-box">
+                            <h1 class="hero-title">
+                                A modern publishing platform
+                            </h1>
+                            <p class="subheading">
+                                Grow your audience and build your online brand
+                            </p>
+                        </div>
+                        <div class="hero-btn-container btn-container">
+                            <a href="#" class="btn cta-more cta-hero"
+                                >Start for free</a
+                            >
+                            <a href="#" class="btn cta-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- End of Hero Section -->
+
+        <!-- Details Section (2nd Section)  -->
+        <section class="details">
+            <div class="container">
+                <h2 class="details-title">Designed for the future</h2>
+            </div>
+            <div class="container details-container">
+                <div class="grid grid-2-cols">
+                    <div class="text-box">
+                        <div class="detail-1">
+                            <p class="description-primary">
+                                Introducing an extensible editor
+                            </p>
+                            <p class="description-secondary">
+                                Blogr features an exceedingly intuitive
+                                interface which lets you focus on one thing:
+                                creating content. The editor supports management
+                                of multiple blogs and allows easy manipulation
+                                of embeds such as images, videos, and Markdown.
+                                Extensibility with plugins and themes provide
+                                easy ways to add functionality or change the
+                                looks of a blog.
+                            </p>
+                        </div>
+                        <div class="detail-2">
+                            <p class="description-primary">
+                                Robust content management
+                            </p>
+                            <p class="description-secondary">
+                                Flexible content management enables users to
+                                easily move through posts. Increase the
+                                usability of your blog by adding customized
+                                categories, sections, format, or flow. With this
+                                functionality, you’re in full control.
+                            </p>
+                        </div>
+                    </div>
+                    <img
+                        src="./images/illustration-editor-desktop.svg"
+                        alt="How the app looks on a Desktop"
+                        class="details-img"
+                    />
+                </div>
+            </div>
+        </section>
+        <!-- End of Details Section (2nd Section)  -->
+
+        <!-- Security Section (2nd Section)  -->
+        <section class="security">
+            <div class="container security-container">
+                <div class="grid grid-2-cols">
+                    <div class="left-col">
+                        <img src="./images/illustration-phones.svg" alt="" />
+                    </div>
+                    <div class="right-col security-text-box">
+                        <h2 class="title description-primary">
+                            State of the Art Infrastructure
+                        </h2>
+                        <p class="description-secondary">
+                            With reliability and speed in mind, worldwide data
+                            centers provide the backbone for ultra-fast
+                            connectivity. This ensures your site will load
+                            instantly, no matter where your readers are, keeping
+                            your site competitive.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of  Security Section (2nd Section)  -->
+
+        <!-- Attributes Section (2nd Section)  -->
+        <section class="attributes">
+            <div class="container attributes-container">
+                <div class="grid grid-2-cols">
+                    <img
+                        src="./images/illustration-laptop-desktop.svg"
+                        alt="How the app looks on a Desktop"
+                        class="attributes-img"
+                    />
+                    <div class="text-box">
+                        <div class="detail-1">
+                            <p class="description-primary">
+                                Free, open, simple
+                            </p>
+                            <p class="description-secondary">
+                                Blogr is a free and open source application
+                                backed by a large community of helpful
+                                developers. It supports features such as code
+                                syntax highlighting, RSS feeds, social media
+                                integration, third-party commenting tools, and
+                                works seamlessly with Google Analytics. The
+                                architecture is clean and is relatively easy to
+                                learn.
+                            </p>
+                        </div>
+                        <div class="detail-2">
+                            <p class="description-primary">Powerful tooling</p>
+                            <p class="description-secondary">
+                                Batteries included. We built a simple and
+                                straightforward CLI tool that makes
+                                customization and deployment a breeze, but
+                                capable of producing even the most complicated
+                                sites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Attributes Section (2nd Section)  -->
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="grid grid-4-cols">
+                    <!-- Logo Image -->
+                    <img src="./images/logo.svg" alt="" />
+
+                    <!-- First Main Link box -->
+
+                    <div class="secondary-nav-links">
+                        <h4 class="footer-links-title">Product</h4>
+                        <ul class="secondary-nav-items">
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Overview</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Marketplace</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Features</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Integration</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Second Main Link box -->
+
+                    <div class="secondary-nav-links">
+                        <h4 class="footer-links-title">Company</h4>
+                        <ul class="secondary-nav-items">
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link">About</a>
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link">Team</a>
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link">Blog</a>
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Careers</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Third Main Link box -->
+
+                    <div class="secondary-nav-links">
+                        <h4 class="footer-links-title">Connect</h4>
+                        <ul class="secondary-nav-items">
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >Newsletter</a
+                                >
+                            </li>
+                            <li class="secondary-nav-item">
+                                <a href="#" class="secondary-nav-link"
+                                    >LinkedIn</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End of Footer -->
+
+        <!-- Appreciation -->
+        <!-- <div class="attribution">
+        Challenge by
+        <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+        <!-- End of Appreciation -->
+    </body>
+</html>
